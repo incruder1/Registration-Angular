@@ -21,7 +21,7 @@ This application allows users to register and log in. It features a multi-step s
 
    ```bash
    git clone https://github.com/incruder1/Registration-Angular.git
-```
+   ```
 2. **Navigate to the project directory:**
 
    ```bash
