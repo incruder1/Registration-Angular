@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    min-height: 100vh; /* Ensures the container takes up at least the full height of the viewport */
+    background: radial-gradient(circle at top right, #0054B3 0%, transparent 30%),
+                radial-gradient(circle at bottom left, #0054B3 0%, transparent 30%);
+    background-blend-mode: overlay; /* Optional: blends the gradients */
+  }
+  
