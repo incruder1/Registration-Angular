@@ -1,27 +1,40 @@
-# AuthApp
+# User Registration and Login
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+## Overview
 
-## Development server
+This application allows users to register and log in. It features a multi-step signup process and a login page. User data is stored in `localStorage` to facilitate login and registration operations.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Signup**: Collects user details including name, email, password, and additional information.
+- **Login**: Authenticates users based on stored credentials.
+- **Progress Bar**: Indicates the current step of the signup process.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- **Angular**: Framework for building the user interface.
+- **Angular Material**: For UI components like progress bars and tabs.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Setup
 
-## Running unit tests
+1. **Clone the repository:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   git clone https://github.com/incruder1/Registration-Angular.git
+```
+2. ***Navigate to the project directory:***
 
-## Running end-to-end tests
+   ```bash
+   cd Registration-Angular
+   ```
+3. **Install dependencies:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+    npm install
+    ```
+4. **Run the application:**
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   ng serve
+   ```
+5. **Open the browser and navigate to `http://localhost:4200/` to view the application.**
