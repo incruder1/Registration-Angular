@@ -1,9 +1,10 @@
-<div class="flex items-center justify-center w-full">
-  <button (click)="goToSignUpPage()" class="bg-[#1994ff] text-white rounded-lg p-[0.8rem] min-w-[10rem]  border-[1px] border-[#1994ff] focus:outline-none">
+<div class="bod">
+<div class="flex  justify-center w-full p-0 m-0">
+  <button (click)="goToSignUpPage()" class="bg-[#1994ff] text-white rounded-lg p-[0.5rem] mt-4 min-w-[10rem]  border-[1px] border-[#1994ff] focus:outline-none">
     Go to SignUp Page
   </button>
   </div>
-<div class="container flex items-center justify-center min-h-screen">
+<div class=" container flex items-start justify-center min-h-[70vh]">
     <div class="flex items-center w-[80%] rounded-xl bg-slate-100 border-rose-950 border-[1px]">
       <div class="max-w-[40%] w-full bg-[#1994ff2a] h-full relative flex flex-col justify-around">
         <img
@@ -21,7 +22,7 @@
         <form
           *ngIf="!loginSuccessful"
           (ngSubmit)="onLogin()"
-          class="flex flex-col h-max gap-4 items-start justify-around px-[8rem] text-[#0069D1] font-poppins"
+          class="flex flex-col h-max gap-4 items-start justify-around pl-[4rem] text-[#0069D1] font-poppins"
         >
           <!-- <p class="text-black font-[600] text-[20px]">Welcome Back, Dev</p> -->
           <div class="flex flex-col gap-2">
@@ -70,4 +71,4 @@
       </div>
     </div>
   </div>
-  
+</div>
